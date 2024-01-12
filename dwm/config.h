@@ -95,6 +95,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY, 						XK_r,      spawn,          SHCMD("rofi -show drun")},
 	{ MODKEY|ControlMask|ShiftMask, XK_r,      spawn,          SHCMD("systemctl reboot")},
 	{ MODKEY|ControlMask|ShiftMask, XK_s,      spawn,          SHCMD("systemctl poweroff")},
 };
