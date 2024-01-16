@@ -13,6 +13,7 @@ X11LIB = /usr/X11R6/lib
 # Xinerama, comment if you don't want it
 XINERAMALIBS  = -lXinerama
 XINERAMAFLAGS = -DXINERAMA
+LIBS = -lX11 -lXinerama
 
 # freetype
 FREETYPELIBS = -lfontconfig -lXft
